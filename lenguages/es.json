@@ -1,0 +1,47 @@
+{
+    "profile": {
+        "rol": "DESARROLLADOR FRONT-END Y BACK-END",
+        "description": "Desde que descubrí el mundo de la informática, se convirtió en mi pasión, me gusta resolver problemas de la vida cotidiana mediante la lógica de programación, me encanta aprender cosas nuevas y ponerlas en práctica, por esa razón es mi mayor deseo formar parte en la creación de proyectos que puedan poner en práctica mis conocimientos y que pueda aprender de estos. <br><br> Valoro mucho el trabajo en equipo y los valores de respeto entre compañeros de trabajo considero que son las bases para formar amistades. <br><br> Algunos de mis hobbits se relacionan con Películas y Series, Deportes, Leer y Video Juegos, los cuales me gusta compartir junto a mi familia."
+    },
+
+    "titlecard": {
+        "title-1": "HABILIDADES BLANDAS",
+        "title-2": "FRONT-END",
+        "title-3": "BACK-END",
+        "title-4": "BASES DE DATOS",
+        "title-5": "IDIOMAS"
+    },
+
+    "subtitle": {
+        "subtitle-1": "Porcentaje de capacidad",
+        "subtitle-2": "Años de experiencia",
+        "subtitle-3": "Marco Común Europeo de Referencia para las Lenguas (MCER)"
+    },
+
+    "items": {
+        "tech-1": "RESPUESTA",
+        "tech-2": "ADAPTABILIDAD",
+        "tech-3": "DETALLES",
+        "tech-4": "COLABORACIÓN",
+        "tech-5": "COMUNICACIÓN",
+        "tech-6": "SOLUCIÓN A PROBLEMAS",
+        "tech-7": "CREATIVIDAD",
+        "tech-8": "PENSAMIENTO CRÍTICO",
+
+        "tech-9": "HTML",
+        "tech-10": "CSS",
+        "tech-11": "JAVASCRIPT",
+        "tech-12": "PYTHON",
+        "tech-13": "BOOTSTRAP",
+
+        "tech-14": "JAVA",
+        "tech-15": "PYTHON",
+        "tech-16": "DJANGO",
+
+        "tech-17": "MY-SQL",
+        "tech-18": "SQLITE",
+
+        "tech-19": "INGLES",
+        "tech-20": "ESPAÑOL"
+    }
+}

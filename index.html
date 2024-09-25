@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <!-- Modo Oscuro y Claro -->
+      <div id="toggle-theme" class="toggle-theme">
+        <img src="assets/icons/moon.svg" alt="icon theme" id="toggle-icon" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Modo Oscuro</p>
+      </div>
+    </div>
+    <!-- Banderas -->
+    <div id="flags" class="flags">
+      <div class="flags__items" data-lenguage="es">
+        <img class="flags__img" src="assets/icons/ar.svg" alt="Bandera de Argentina">
+      </div>
+      <div class="flags__items" data-lenguage="en">
+        <img class="flags__img" src="assets/icons/us.svg" alt="Bandera de Estados Unidos">
+      </div>
+    </div>
+    <!-- Colores -->
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(123, 80%, 25%)" class="colors__item colors__item--green"></div>
+      <div data-color="hsl(320, 70%, 43%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(9, 83%, 47%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!--PROFILE CARD-->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/facundo.jpg" alt="foto de perfil, facundo">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">FACUNDO ALDO RODRÍGUEZ</h2>
+          <p class="card__subtitle" data-section="profile" data-value="rol">DESARROLLADOR FRONT-END Y BACK-END</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:facundo.aldo.rodriguez@gmail.com">facundo.aldo.rodriguez@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:1150514817">+549 1150514817</a>
+          </div>
+          <p class="card__text" data-section="profile" data-value="description">
+            Desde que descubrí el mundo de la informática, se
+            convirtió en mi pasión, me gusta resolver
+            problemas de la vida cotidiana mediante la lógica
+            de programación, me encanta aprender cosas
+            nuevas y ponerlas en práctica, por esa razón es
+            mi mayor deseo formar parte en la creación de
+            proyectos que puedan poner en práctica mis
+            conocimientos y que pueda aprender de estos.
+            <br><br>
+            Valoro mucho el trabajo en equipo y los valores
+            de respeto entre compañeros de trabajo
+            considero que son las bases para formar
+            amistades.
+            <br><br>
+            Algunos de mis hobbits se relacionan con
+            Películas y Series, Deportes, Leer y Video Juegos,
+            los cuales me gusta compartir junto a mi familia.
+          </p>
+        </div>
+      </article>
+      <!--PROFILE CARD-->
+      <article class="card">
+        <div class="card__body--study">
+          <h2 class="card__title--study">Estudios Terciarios</h2>
+          <div class="study__info">
+            <img class="study__image" src="assets/images/logo_instituto_ciisa.png" alt="Logo del instituto CIISA">
+          </div>
+          <div class="study__info">
+            <p class="study__time">Marzo 2001 a Diciembre 2002</p>
+            <h3 class="study__qualification">
+              Certificación Cisco | Networking Academy.
+              <br>
+              Fundamentals of Java Programming.
+            </h3>
+            <div class="card__image-container">
+              <img class="study__image" src="assets/images/5815489.jpg" alt="foto del titulo">
+            </div>
+            <div class="card__link">
+              <i class="fas fa-link icon"></i>
+              <a href="https://ipss.cl/">Instituto CIISA</a>
+            </div>
+          </div>
+      </article>
+    </section>
+    <!-- Sección 2 -->
+    <section class="column column--rigth">
+      <!-- Tarjeta Nº 1 -->
+      <article class="card">
+        <h2 class="card__title" data-section="titlecard" data-value="title-1">HABILIDADES BLANDAS</h2>
+        <small data-section="subtitle" data-value="subtitle-1">Porcentaje de capacidad</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">100</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-1">RESPUESTA</p>
+            <div class="skills__bar skills__bar--100"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-2">ADAPTABILIDAD</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-3">DETALLES</p>
+            <div class="skills__bar skills__bar--100"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-4">COLABORACIÓN</p>
+            <div class="skills__bar skills__bar--100"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-5">COMUNICACIÓN</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-6">SOLUCIÓN A PROBLEMAS</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-7">CREATIVIDAD</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-8">PENSAMIENTO CRÍTICO</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta Nº 2 -->
+      <article class="card">
+        <h2 class="card__title" data-section="titlecard" data-value="title-2">FRONT-END</h2>
+        <small data-section="subtitle" data-value="subtitle-2">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-9">HTML</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-10">CSS</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-11">JAVASCRIPT</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-12">PYTHON</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-13">BOOTSTRAP</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta Nº 3 -->
+      <article class="card">
+        <h2 class="card__title" data-section="titlecard" data-value="title-3">BACK-END</h2>
+        <small data-section="subtitle" data-value="subtitle-2">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-14">JAVA</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-15">PYTHON</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-16">DJANGO</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta Nº 4 -->
+      <article class="card">
+        <h2 class="card__title" data-section="titlecard" data-value="title-4">BASES DE DATOS</h2>
+        <small data-section="subtitle" data-value="subtitle-2">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-17">MY-SQL</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-18">SQLITE</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta Nº 5 -->
+      <article class="card">
+        <h2 class="card__title" data-section="titlecard" data-value="title-5">IDIOMAS</h2>
+        <small data-section="subtitle" data-value="subtitle-3">Marco Común Europeo de Referencia para las Lenguas
+          (MCER)</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">A0</span>
+            <span class="skills__start-level">A1</span>
+            <span class="skills__start-level">A2</span>
+            <span class="skills__start-level">B1</span>
+            <span class="skills__start-level">B2</span>
+            <span class="skills__start-level">C1</span>
+            <span class="skills__start-level">C2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-19">INGLES</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech" data-section="items" data-value="tech-20">ESPAÑOL</p>
+            <div class="skills__bar skills__bar--100"></div>
+          </div>
+        </div>
+      </article>
+      <!-- Tarjeta Nº 6 -->
+      <article class="card card--project">
+        <div class="cad_image-container">
+          <img src="assets/images/project.jpg" alt="Imagen del proyecto" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project-tags">
+            <small class="project-tag">#HTML</small>
+            <small class="project-tag">#CSS</small>
+            <small class="project-tag">#JavaScript</small>
+            <small class="project-tag">#Responsive</small>
+          </div>
+          <h2 class="card__title">Portafolio</h2>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="items" data-value="tech-19">INGLES</p>
+          <div class="skills__bar skills__bar--40"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="items" data-value="tech-20">ESPAÑOL</p>
+          <div class="skills__bar skills__bar--100"></div>
+        </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
