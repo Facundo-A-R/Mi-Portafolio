@@ -127,6 +127,7 @@ header {
     display: grid;
     padding: 1em;
     gap: 0.5em;
+    
 }
 
 @media screen and (min-width: 720px) {
@@ -146,7 +147,7 @@ header {
     .column--rigth {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
-        align-items: start;
+        align-items: safe;
     }
 }
 
